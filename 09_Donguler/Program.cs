@@ -279,24 +279,89 @@
 
             #region 1-500 arasındaki sayıların içinden 13 katlarının kaç tane olduğunu ve toplamlarını hesaplayınız
 
-            int toplam = 0;
-            int adet = 0;
+            //int toplam = 0;
+            //int adet = 0;
 
-            for (int i = 1; i < 500; i++)
+            //for (int i = 1; i < 500; i++)
+            //{
+            //    if (i % 13 == 0)
+            //    {
+            //        toplam += i;
+            //        adet++;
+            //    }
+            //}
+            //Console.WriteLine("Toplam:"+toplam);
+            //Console.WriteLine("Adet:"+adet);
+
+            #endregion
+
+
+
+            #endregion
+
+            #region RANDOM
+
+            //Belirli bir aralıkta rastgele sayı üretmeyi sağlar. Kullanıcının tanımladığı sayı aralığında int tipinde(tam sayı) sayılar üretir.
+
+            Random r = new Random(); //Random sınıfına ait bir nesne oluşturuldu.
+
+            //int sayi = r.Next();
+            //int sayi = r.Next(10);
+
+
+            while (true)
             {
-                if (i % 13 == 0)
-                {
-                    toplam += i;
-                    adet++;
-                }
+                int sayi = r.Next(5, 10);
+                Console.WriteLine(sayi);
+                Thread.Sleep(1000);
             }
-            Console.WriteLine("Toplam:"+toplam);
-            Console.WriteLine("Adet:"+adet);
+            
+
+
 
             #endregion
-            #endregion
+
+            /*
+            SORU:1 - Bilgisayarın 1-100 aralığında bir sayıyı aklında tutmasını sağlayın.
+            Kullanıcıya 5 hak vererek bu sayıyı tahmin etmesini isteyin
+            Tahmini yönlendirerek kullanıcıya rehber olunuz.
+            5. hakkını kullandığı ve bilmediği durumda hakkınız bitti yazsın.
+             
+            SORU:2 Aşağıdaki geometrik şekilleri for döngüsü ile ayrı ayrı kodlayınız.
+
+            *
+            **
+            ***
+            ****
+            *****
+            ******
+            
+
+            *************
+            *           *
+            *           *
+            *           *
+            *           *
+            *           *
+            *************
+            
+
+                *
+               ***
+              *****
+             *******
+            *********
+           ***********
+          *************
 
 
+          SORU:3- Çarpım tablosunu for döngüsü ile ekrana yazdırınız.
+
+            1x1=1  2x1=2  ....
+            1x2=2  2x2=4
+            1x3=3
+            .....
+             */
         }
     }
 }
