@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_StringMetotlar", "08_Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Donguler", "09_Donguler\09_Donguler.csproj", "{3330AEF9-5201-4538-BF2F-E1199F096399}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Arrays", "10_Arrays\10_Arrays.csproj", "{37E20439-119A-46A8-A8CE-3ACD992D25A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{3330AEF9-5201-4538-BF2F-E1199F096399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3330AEF9-5201-4538-BF2F-E1199F096399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3330AEF9-5201-4538-BF2F-E1199F096399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E20439-119A-46A8-A8CE-3ACD992D25A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E20439-119A-46A8-A8CE-3ACD992D25A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E20439-119A-46A8-A8CE-3ACD992D25A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E20439-119A-46A8-A8CE-3ACD992D25A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
