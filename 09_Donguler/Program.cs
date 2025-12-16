@@ -303,19 +303,19 @@
 
             //Belirli bir aralıkta rastgele sayı üretmeyi sağlar. Kullanıcının tanımladığı sayı aralığında int tipinde(tam sayı) sayılar üretir.
 
-            Random r = new Random(); //Random sınıfına ait bir nesne oluşturuldu.
+            //Random r = new Random(); //Random sınıfına ait bir nesne oluşturuldu.
 
             //int sayi = r.Next();
             //int sayi = r.Next(10);
 
 
-            while (true)
-            {
-                int sayi = r.Next(5, 10);
-                Console.WriteLine(sayi);
-                Thread.Sleep(1000);
-            }
-            
+            //while (true)
+            //{
+            //    int sayi = r.Next(5, 10);
+            //    Console.WriteLine(sayi);
+            //    Thread.Sleep(1000);
+            //}
+
 
 
 
@@ -326,7 +326,64 @@
             Kullanıcıya 5 hak vererek bu sayıyı tahmin etmesini isteyin
             Tahmini yönlendirerek kullanıcıya rehber olunuz.
             5. hakkını kullandığı ve bilmediği durumda hakkınız bitti yazsın.
-             
+             */
+            //Random rnd = new Random();
+
+            //int sayi = rnd.Next(1, 100);
+
+            //for (int hak = 5; hak > 0; hak--)
+            //{
+            //    Console.WriteLine("Tahmininiz:");
+            //    int tahmin = Convert.ToInt32(Console.ReadLine());
+
+            //    if (tahmin == sayi)
+            //    {
+            //        Console.WriteLine("Tebrikler");
+            //        break;
+            //    }
+            //    else if (hak == 1)
+            //    {
+            //        Console.WriteLine("Hakkınız Bitti");
+            //    }
+            //    else if (tahmin > sayi)
+            //    {
+            //        Console.WriteLine("Tahmininizi küçültünüz.");
+            //    }
+            //    else if (tahmin < sayi)
+            //    {
+            //        Console.WriteLine("Tahmininizi büyültünüz.");
+            //    }
+            //}
+
+            /*
+            int hak = 5;
+
+            while (hak > 0)
+            {
+                Console.WriteLine("Tahmininiz:");
+                int tahmin = Convert.ToInt32(Console.ReadLine());
+                hak--;
+                if (tahmin == sayi)
+                {
+                    Console.WriteLine("Tebrikler");
+                    break;
+                }
+                else if (hak == 1)
+                {
+                    Console.WriteLine("Hakkınız Bitti");
+                }
+                else if (tahmin > sayi)
+                {
+                    Console.WriteLine("Tahmininizi küçültünüz.");
+                }
+                else if (tahmin < sayi)
+                {
+                    Console.WriteLine("Tahmininizi büyültünüz.");
+                }
+            }
+            */
+
+            /*
             SORU:2 Aşağıdaki geometrik şekilleri for döngüsü ile ayrı ayrı kodlayınız.
 
             *
@@ -335,8 +392,20 @@
             ****
             *****
             ******
-            
+            */
 
+            //for (int i = 1; i < 7; i++)
+            //{
+            //    for (int j = i; j > 0; j--)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
+            /*
             *************
             *           *
             *           *
@@ -344,8 +413,22 @@
             *           *
             *           *
             *************
-            
+            */
 
+            //for (int i = 0; i < 7; i++)
+            //{
+            //    if(i==0 || i == 6)
+            //    {
+            //        Console.WriteLine("************");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("*          *");
+            //    }
+            //}
+
+
+            /*
                 *
                ***
               *****
@@ -353,7 +436,28 @@
             *********
            ***********
           *************
+            */
 
+
+
+            //int bosluk = 10;
+
+            //for (int i = 1; i < 20; i+=2)
+            //{
+            //    for (int j = 0; j < bosluk; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (int j = 0; j<i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //    bosluk--;
+            //}
+
+            /*
 
           SORU:3- Çarpım tablosunu for döngüsü ile ekrana yazdırınız.
 
@@ -362,6 +466,145 @@
             1x3=3
             .....
              */
+            //for (int i = 1; i < 11; i++)
+            //{
+            //    for (int j = 1; j < 11; j++)
+            //    {
+            //        Console.Write($"{j}x{i}={i*j}\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            #region Kullanıcının girmiş olduğu sayının asal olup olmadığını ekrana yazdıran döngü.
+            //Asal Sayı:1 ve kendisinden başka sayıya tam bölünmeyen sayılara ASAL SAYI denir.
+            //En küçük asal sayı:2
+            //2,3,5,7,11,13,...
+
+            //Console.WriteLine("Sayı giriniz");
+            //int sayi = Convert.ToInt32(Console.ReadLine());
+
+            //if (sayi < 2)
+            //{
+            //    Console.WriteLine("Asal Değildir");
+            //}
+            //else if (sayi == 2)
+            //{
+            //    Console.WriteLine("Asaldır");
+            //}
+            //else
+            //{
+            //    bool AsalMi = true;
+            //    for (int i = 2; i < sayi; i++) //9
+            //    {
+            //        if (sayi % i == 0)
+            //        {
+            //            AsalMi = false;
+            //            break;
+            //        }
+            //    }
+
+            //    if (AsalMi == true)
+            //    {
+            //        Console.WriteLine("Asaldır");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Asal Değildir");
+            //    }
+
+            //}
+
+            #endregion
+
+            #region 1-1000000 arasındaki asal sayıları ekrana yazdırınız.
+
+            //for (int sayi = 1; sayi < 1000; sayi++)
+            //{
+
+            //    if (sayi < 2)
+            //    {
+            //        continue;
+            //    }
+            //    else if (sayi == 2)
+            //    {
+            //        Console.WriteLine(sayi);
+            //    }
+            //    else
+            //    {
+            //        bool AsalMi = true;
+            //        for (int i = 2; i < sayi; i++) //9
+            //        {
+            //            if (sayi % i == 0)
+            //            {
+            //                AsalMi = false;
+            //                break;
+            //            }
+            //        }
+
+            //        if (AsalMi == true)
+            //        {
+            //            Console.WriteLine(sayi);
+            //        }
+
+            //    }
+            //}
+
+
+
+
+
+
+            #endregion
+
+
+            #region DO WHILE
+
+            //int i = 1;
+
+            //while (i < 10)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
+
+            //int i = 1;
+            //do
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //} while (i<10);
+
+
+            //Kullanıcı 0 değerini girene kadar girilen sayıları topla. 0 değerini girdiğinde toplama işlemini bitir ve sonucu ekrana yaz.
+
+
+            //int toplam = 0;
+            //while (true)
+            //{
+            //    Console.WriteLine("Sayı:");
+            //    int sayi = Convert.ToInt32(Console.ReadLine());
+
+            //    if (sayi == 0)
+            //        break;
+            //    toplam += sayi;
+            //}
+            //Console.WriteLine(toplam);
+
+            int toplam = 0;
+            int sayi;
+
+            do
+            {
+                Console.WriteLine("Sayı:");
+                sayi = Convert.ToInt32(Console.ReadLine());
+
+                toplam += sayi;
+
+            } while (sayi!=0);
+
+            Console.WriteLine("Toplam:"+toplam);
+            #endregion
+
         }
     }
 }
