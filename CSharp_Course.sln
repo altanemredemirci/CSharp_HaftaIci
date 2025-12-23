@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Arrays", "10_Arrays\10_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_OtomatMakinesi", "11_OtomatMakinesi\11_OtomatMakinesi.csproj", "{EE16F778-7F90-4C07-BCEF-F25FBE1EA225}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Metotlar", "12_Metotlar\12_Metotlar.csproj", "{726243CF-212E-4614-BDD0-B71569D691DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{EE16F778-7F90-4C07-BCEF-F25FBE1EA225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE16F778-7F90-4C07-BCEF-F25FBE1EA225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE16F778-7F90-4C07-BCEF-F25FBE1EA225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726243CF-212E-4614-BDD0-B71569D691DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726243CF-212E-4614-BDD0-B71569D691DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726243CF-212E-4614-BDD0-B71569D691DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726243CF-212E-4614-BDD0-B71569D691DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

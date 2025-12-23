@@ -13,7 +13,7 @@
              
              */
 
-            int sayi = 10;
+            //int sayi = 10;
 
             //**Dolu Dizi Tanımı
             //int[] sayilar = { 1, 2, 3, 4, 5, 6, 7, 8 }; //8 adet int tipinde sayı tutan bir sayilar dizisidir.
@@ -85,6 +85,8 @@
 
             //int[] sayilar = { 11, 22, 33, 44, 55, 66 };
 
+
+
             //foreach (int item in sayilar)
             //{
             //    Console.WriteLine(item);
@@ -93,7 +95,7 @@
 
 
             #region ARRAY SINIFININ METOTLARI
-            int[] sayilar = { 11, 22, 33, 44, 55, 66 };
+            //int[] sayilar = { 11, 22, 33, 44, 55, 66 };
 
             #region CLEAR()
 
@@ -109,7 +111,6 @@
 
 
             #endregion
-
 
             #region COPY()
             //Belirli bir koleksiyondan bir diğeri değer kopyalayı sağlar.
@@ -210,8 +211,104 @@
             //rakamlar[4] = 55;
 
             #endregion
+
+
             #endregion
 
+
+            #region Verilen bir string değerin harflerini alt alta yazdırma
+
+            //string il = "İSTANBUL";
+
+            //for (int i = 0; i < il.Length; i++)
+            //{
+            //    Console.WriteLine(il[i]);
+            //}
+
+            //foreach (char item in il)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+            #region Bir dizinin eleman sayısı 10 ile 20 arasında rastgele atansın.
+            //Bu dizinin elemanlarını da sistem 0,100 aralığında otomatik atasın.
+            //Otomatik oluşturulan bu dizinin eleman sayısını ve elemanlarını kullanıcıya gösteriniz
+            //Aynı sayılar tekrar atanmayacak
+            //Dizinin en büyük ve en küçük değerini sort() metodunu kullanmadan ekrana yazdırınız.
+
+            //Random r = new Random();
+            //int uzunluk = r.Next(10, 20);
+
+            //int[] sayilar = new int[uzunluk];
+
+            //int i = 0;
+            //while(i<uzunluk)
+            //{
+            //    int sayi = r.Next(1, 100);
+
+            //    if (sayilar.Contains(sayi) == false)
+            //    {
+            //        sayilar[i] = sayi;
+            //        i++;
+            //    }               
+            //}
+
+
+            //Console.WriteLine("Eleman Sayısı:"+uzunluk);
+
+            //foreach (int item in sayilar)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            //int enBuyuk = sayilar[0];
+            //int enKucuk = sayilar[0];
+
+            //foreach (int item in sayilar)
+            //{
+            //    if (item > enBuyuk)
+            //    {
+            //        enBuyuk = item;
+            //    }
+            //    if (item < enKucuk)
+            //    {
+            //        enKucuk = item;
+            //    }
+            //}
+
+            //Console.WriteLine("Enbüyük:"+enBuyuk);
+            //Console.WriteLine("Enküçük:"+enKucuk);
+
+            #endregion
+
+            #region Kullanıcıdan 4 ürün fiyatı isteyin fiyatı 1200 tl yi geçen ürünlere %32 indirim yapınız ve 
+            //      her biri ürünün yeni fiyatını gösteriniz
+
+            double[] urunler = new double[4];
+
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine("Ürün Fiyatı:");
+                double fiyat = Convert.ToDouble(Console.ReadLine());
+
+                if (fiyat > 1200)
+                {
+                    fiyat = fiyat * 0.68;
+                }
+
+                urunler[i] = fiyat;
+            }
+
+            foreach (double item in urunler)
+            {
+                Console.WriteLine(item);
+            }
+
+
+            #endregion
         }
     }
 }

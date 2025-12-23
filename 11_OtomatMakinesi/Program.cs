@@ -6,35 +6,30 @@
         {
             /*
 
-
  ﻿
- OTOMAT MAKİNESİ
+            OTOMAT MAKİNESİ
 
- ürünler ve fiyatları önceden tanımlanacak
+            ürünler ve fiyatları önceden tanımlanacak
 
- Program başlarken kullanıcıya ürünler ve fiyatları lsitelenecek
+            Program başlarken kullanıcıya ürünler ve fiyatları lsitelenecek
 
- fanta : 40
- Kola  : 40
- Çikolata : 30
+            fanta : 40
+            Kola  : 40
+            Çikolata : 30
 
- kullanıcıdan bir ürün seçmesi beklenecek
- ürün seçildikten sonra para girişi yapılacak
- yatıran para yeterli ise "afiyet olsun"
- yatırılan para fazla ise "afiyet olsun para üstü:10 alınız."
- yatırılan para az ise "yetersiz bakiye" "Para ekle 1, Para iade 2"
-
-
- ADMİN PANEL
- Yeni ürün ekle 1
- Ürün Güncelle 2
- Ürün Sil 3
- Ürünleri Listele 4
- Günsonu toplam satış 5
+            kullanıcıdan bir ürün seçmesi beklenecek
+            ürün seçildikten sonra para girişi yapılacak
+            yatıran para yeterli ise "afiyet olsun"
+            yatırılan para fazla ise "afiyet olsun para üstü:10 alınız."
+            yatırılan para az ise "yetersiz bakiye" "Para ekle 1, Para iade 2"
 
 
-
-
+            ADMİN PANEL
+            Yeni ürün ekle 1
+            Ürün Güncelle 2
+            Ürün Sil 3
+            Ürünleri Listele 4
+            Günsonu toplam satış 5
 
 
              */
