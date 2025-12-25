@@ -33,6 +33,8 @@ namespace _12_Metotlar
 
             #region DEĞER DÖNDÜRMEYEN METOTLAR 
 
+            //void anahtar kelimesi ile tanımlanırlar. İşlemi yaptıktan sonra çağrıldıkları yere bir değer taşımazlar.
+
             //Console.WriteLine("İsim gir"); //Değer döndürmeyen metot
             //string isim = Console.ReadLine(); ////Değer döndüren metot
 
@@ -48,8 +50,20 @@ namespace _12_Metotlar
             //*** Metot Çağırma
             //Yaz();
 
+
+
+            //***PARAMETRESİZ METOT
             //Toplama();
-            int toplam=Toplama2();
+
+            //***PARAMETRELİ METOT
+            Console.WriteLine("1.Sayı Gir:");
+            int sayi1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("2.Sayı Gir:");
+            int sayi2 = Convert.ToInt32(Console.ReadLine());
+            ToplamaParametreli(sayi1, sayi2);
+
+
+            int toplam =Toplama2();
 
             Console.WriteLine(toplam);
             #endregion
@@ -72,6 +86,13 @@ namespace _12_Metotlar
             Console.WriteLine("Sonuç:"+(sayi1+sayi2));
         }
 
+        static void ToplamaParametreli(int s1,int s2)
+        {
+            Console.WriteLine("Sonuç:" + (s1 + s2));
+        }
+
+
+
         static int Toplama2()
         {
             Console.WriteLine("1.Sayı Gir:");
@@ -83,6 +104,6 @@ namespace _12_Metotlar
 
             return sonuc;
         }
-
+        
     }
 }
