@@ -1,4 +1,6 @@
-﻿namespace _10_Arrays
+﻿using _12_Metotlar_4;
+
+namespace _10_Arrays
 {
     internal class Program
     {
@@ -309,6 +311,8 @@
 
 
             #endregion
+
+        
         }
     }
 }

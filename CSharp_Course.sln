@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.1.11304.174 d18.0
+VisualStudioVersion = 18.1.11304.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Algoritma", "01_Algoritma\01_Algoritma.csproj", "{5F9E1867-5F6D-446D-B8AD-DB5F37C9A1A0}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Metotlar_2", "12_Metotlar_2\12_Metotlar_2.csproj", "{95EDF56A-B7BF-47C3-A215-0AE06FBC4B51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Metotlar_3", "12_Metotlar_3\12_Metotlar_3.csproj", "{46CADE46-7E01-4AF7-B5FB-9A15F6BD0369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Metotlar_4", "12_Metotlar_4\12_Metotlar_4.csproj", "{76ADAE05-3F82-4A09-92B8-A0537412807C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{46CADE46-7E01-4AF7-B5FB-9A15F6BD0369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46CADE46-7E01-4AF7-B5FB-9A15F6BD0369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46CADE46-7E01-4AF7-B5FB-9A15F6BD0369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76ADAE05-3F82-4A09-92B8-A0537412807C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76ADAE05-3F82-4A09-92B8-A0537412807C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76ADAE05-3F82-4A09-92B8-A0537412807C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76ADAE05-3F82-4A09-92B8-A0537412807C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
