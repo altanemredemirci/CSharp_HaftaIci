@@ -57,6 +57,13 @@
 
             MaasDurumu(netMaas);
 
+
+
+
+
+
+
+
         }
 
         static double MaasHesapla(double saatUcreti, int calisilanSaat)
