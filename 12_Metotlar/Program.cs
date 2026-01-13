@@ -55,12 +55,15 @@ namespace _12_Metotlar
             //***PARAMETRESİZ METOT
             //Toplama();
 
+            Toplama2();
+
+
             //***PARAMETRELİ METOT
             Console.WriteLine("1.Sayı Gir:");
             int sayi1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("2.Sayı Gir:");
             int sayi2 = Convert.ToInt32(Console.ReadLine());
-            ToplamaParametreli(sayi1, sayi2);
+            ToplamaParametreli(sayi2, sayi1);
 
 
             int toplam =Toplama2();
@@ -72,7 +75,7 @@ namespace _12_Metotlar
 
         static void Yaz()
         {           
-            Console.WriteLine("Altan Emre");
+            Console.WriteLine("Altan Emre");            
         }
         
         
@@ -86,12 +89,11 @@ namespace _12_Metotlar
             Console.WriteLine("Sonuç:"+(sayi1+sayi2));
         }
 
+
         static void ToplamaParametreli(int s1,int s2)
         {
             Console.WriteLine("Sonuç:" + (s1 + s2));
         }
-
-
 
         static int Toplama2()
         {
@@ -106,4 +108,5 @@ namespace _12_Metotlar
         }
         
     }
+
 }

@@ -7,7 +7,7 @@
             // DEĞER DÖNDÜREN METOTLAR
             // Bir metot gerçekleştirdiği işlem sonucunu return kelimesi ile çağrıldığı yere taşıyor ise değer döndüren metot denir.
 
-            //int sonuc = Toplama();
+            int sonuc = Toplama();
 
             //Console.WriteLine("3.sayı:");
             //int sayi3 = Convert.ToInt32(Console.ReadLine());

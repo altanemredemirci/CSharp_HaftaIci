@@ -95,7 +95,8 @@
         #endregion
 
         #region DEFAULT DEĞER
-            static void DegerAl(int s1, int s2 = 5)
+
+        static void DegerAl(int s1, int s2 = 5)
             {
                 Console.WriteLine(s1 + s2);
             }
@@ -114,6 +115,7 @@
 
         static void EkranYaz(ref int sayi)
         {
+            sayi = 10;
             Console.WriteLine(sayi+5);
         }
         #endregion

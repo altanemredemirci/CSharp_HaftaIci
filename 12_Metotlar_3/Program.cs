@@ -10,13 +10,13 @@
             string islem = Console.ReadLine();
 
             if (islem == "+")
-                Toplama();
+                DortIslem.Toplama();
             else if (islem == "-")
-                Cikarma();
+                DortIslem.Cikarma();
             else if (islem == "*")
-                Carpma();
+                DortIslem.Carpma();
             else if (islem == "/")
-                Bolme();
+                DortIslem.Bolme();
             else
             {
                 Console.WriteLine("Hatalı İşlem!");
@@ -24,48 +24,48 @@
 
         }
 
-        static void Toplama()
-        {
-            Console.WriteLine("1.Sayı Gir:");
-            int s1 = Convert.ToInt32(Console.ReadLine());
+        //static void Toplama()
+        //{
+        //    Console.WriteLine("1.Sayı Gir:");
+        //    int s1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("2.Sayı Gir:");
-            int s2 = Convert.ToInt32(Console.ReadLine());
+        //    Console.WriteLine("2.Sayı Gir:");
+        //    int s2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(s1+s2);
-        }
+        //    Console.WriteLine(s1+s2);
+        //}
 
-        static void Cikarma()
-        {
-            Console.WriteLine("1.Sayı Gir:");
-            int s1 = Convert.ToInt32(Console.ReadLine());
+        //static void Cikarma()
+        //{
+        //    Console.WriteLine("1.Sayı Gir:");
+        //    int s1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("2.Sayı Gir:");
-            int s2 = Convert.ToInt32(Console.ReadLine());
+        //    Console.WriteLine("2.Sayı Gir:");
+        //    int s2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(s1 - s2);
-        }
+        //    Console.WriteLine(s1 - s2);
+        //}
 
-        static void Carpma()
-        {
-            Console.WriteLine("1.Sayı Gir:");
-            int s1 = Convert.ToInt32(Console.ReadLine());
+        //static void Carpma()
+        //{
+        //    Console.WriteLine("1.Sayı Gir:");
+        //    int s1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("2.Sayı Gir:");
-            int s2 = Convert.ToInt32(Console.ReadLine());
+        //    Console.WriteLine("2.Sayı Gir:");
+        //    int s2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(s1 * s2);
-        }
+        //    Console.WriteLine(s1 * s2);
+        //}
 
-        static void Bolme()
-        {
-            Console.WriteLine("1.Sayı Gir:");
-            int s1 = Convert.ToInt32(Console.ReadLine());
+        //static void Bolme()
+        //{
+        //    Console.WriteLine("1.Sayı Gir:");
+        //    int s1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("2.Sayı Gir:");
-            int s2 = Convert.ToInt32(Console.ReadLine());
+        //    Console.WriteLine("2.Sayı Gir:");
+        //    int s2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(s1 / s2);
-        }
+        //    Console.WriteLine(s1 / s2);
+        //}
     }
 }

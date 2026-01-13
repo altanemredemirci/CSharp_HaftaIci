@@ -28,6 +28,7 @@ namespace _12_Metotlar_4
                 sayilar[i] = r.Next(basla, bitis); //Verilen aralıkta rastgele bir sayı eklendi.
             }
 
+            //foreach döngüsü sadece koleksiyon tipindeki tanımların elemanlarını okur.
             foreach (int item in sayilar)
             {
                 Console.WriteLine(item);
@@ -36,7 +37,8 @@ namespace _12_Metotlar_4
 
         }
 
-
+        
+        //Static ile NonStatic arasında çağrılma farkı vardır.
         //Nonstatic Metotları kullanmak için classtan bir nesne oluşturulur.
         internal void Doldur2()
         {
