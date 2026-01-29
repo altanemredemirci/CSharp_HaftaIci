@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+
             Ogrenci ogrenci = new Ogrenci(); //Instance - Örneklem 
             ogrenci.Ad = "Altan Emre";
             ogrenci.Soyad = "Demirci";
@@ -17,6 +18,7 @@
 
             //Listenin tutacağı veri tipini class olarak tanımlayabilirim.
             List<Ogrenci> ogrenciler = new List<Ogrenci>();
+            
             //ogrenciler.Add(ogrenci);
             //ogrenciler.Add(ogrenci2);
 
@@ -33,29 +35,6 @@
         }
     }
 
-    //class tanımları default olarak internal tipinde erişime sahiptir.
-    class Ogrenci
-    {
-        //sınıfa ait property
-        internal int Numara; //default olarak class a özel tanımlardır. yani private tanımlıdır.
-        internal string Ad;
-        internal string Soyad;
-
-        internal static void Kayit(List<Ogrenci> liste)
-        {
-            Ogrenci ogrenci = new Ogrenci();
-
-            Console.WriteLine("Ad:");
-            ogrenci.Ad = Console.ReadLine();
-
-            Console.WriteLine("Soyad:");
-            ogrenci.Soyad = Console.ReadLine();
-
-            Console.WriteLine("Numara:");
-            ogrenci.Numara = Convert.ToInt32(Console.ReadLine());
-
-            liste.Add(ogrenci);
-        }
-
-    }
+    
+   
 }

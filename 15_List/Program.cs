@@ -23,6 +23,7 @@ namespace _15_List
             //Boş bir liste tanımı 
             List<string> isimler = new List<string>();
 
+            //Dolu List Tanımı
             List<string> adlar = new List<string>() { "Altan", "Can", "Ahmet", "Ceren" };
 
             adlar.Add("İbrahim");

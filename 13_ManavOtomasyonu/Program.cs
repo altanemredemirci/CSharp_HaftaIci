@@ -38,7 +38,7 @@ namespace _13_ManavOtomasyonu
                         Console.WriteLine("Kaç kilo?");
                         int kilo = Convert.ToInt32(Console.ReadLine());
 
-                        if (!manavMeyve.Contains(halMeyve[urunNo]))
+                        if (!manavMeyve.Contains(halMeyve[urunNo])) //manavMeyve.Contains(halMeyve[urunNo]==false
                         {
                             manavMeyve.Add(halMeyve[urunNo]);
                             manavMeyveKilo.Add(kilo);
