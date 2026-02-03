@@ -69,6 +69,7 @@ namespace _16_Class_2
         {
             foreach (var item in kitaplar)
             {
+                Console.WriteLine(item);
                 Console.WriteLine(item.Barkod);
                 Console.WriteLine(item.KitapAdi);
                 Console.WriteLine(item.YazarAdi);

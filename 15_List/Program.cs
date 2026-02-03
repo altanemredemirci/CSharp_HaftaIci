@@ -55,6 +55,7 @@ namespace _15_List
             {
                 Console.WriteLine(item);
             }
+           
         }
     }
 }

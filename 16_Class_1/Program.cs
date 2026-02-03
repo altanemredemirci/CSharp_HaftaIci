@@ -18,20 +18,27 @@
 
             //Listenin tutacağı veri tipini class olarak tanımlayabilirim.
             List<Ogrenci> ogrenciler = new List<Ogrenci>();
-            
+
             //ogrenciler.Add(ogrenci);
             //ogrenciler.Add(ogrenci2);
 
-            Ogrenci.Kayit(ogrenciler);
-            Ogrenci.Kayit(ogrenciler);
-            Ogrenci.Kayit(ogrenciler);
+            //Ogrenci.Kayit(ogrenciler);
+            //Ogrenci.Kayit(ogrenciler);
+            //Ogrenci.Kayit(ogrenciler);
 
 
-            foreach (var item in ogrenciler)
-            {
-                Console.WriteLine(item.Ad);
-                Console.WriteLine(item.Soyad);
-            }
+            //foreach (var item in ogrenciler)
+            //{
+            //    Console.WriteLine(item.Ad);
+            //    Console.WriteLine(item.Soyad);
+            //}
+
+
+            //Ogrenci ogrenci1 = new Ogrenci();
+            //ogrenci1.Kayit2(ogrenciler);
+
+
+            ogrenciler.Add(Ogrenci.Kayit3());
         }
     }
 
